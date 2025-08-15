@@ -1,56 +1,22 @@
 {
-  "name": "open-lovable",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "test:integration": "node tests/e2b-integration.test.js",
-    "test:api": "node tests/api-endpoints.test.js",
-    "test:code": "node tests/code-execution.test.js",
-    "test:all": "npm run test:integration && npm run test:api && npm run test:code"
-  },
-  "dependencies": {
-    "@ai-sdk/anthropic": "^2.0.1",
-    "@ai-sdk/google": "^2.0.4",
-    "@ai-sdk/groq": "^2.0.0",
-    "@ai-sdk/openai": "^2.0.4",
-    "@anthropic-ai/sdk": "^0.57.0",
-    "@e2b/code-interpreter": "^1.5.1",
-    "@radix-ui/react-slot": "^1.2.3",
-    "@radix-ui/react-switch": "^1.2.5",
-    "@types/react-syntax-highlighter": "^15.5.13",
-    "ai": "^5.0.0",
-    "autoprefixer": "^10.4.21",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "e2b": "^1.13.2",
-    "framer-motion": "^12.23.12",
-    "groq-sdk": "^0.29.0",
-    "lucide-react": "^0.532.0",
-    "next": "15.4.3",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-icons": "^5.5.0",
-    "react-syntax-highlighter": "^15.6.1",
-    "tailwind-merge": "^3.3.1",
-    "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.25.76"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4.1.11",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.3",
-    "tailwindcss": "^4.1.11",
-    "typescript": "^5"
-  }
+    "name": "calculadora-escolar-origen26",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "13.4.19",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "24.3.0",
+        "@types/react": "19.1.10",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "tailwindcss": "^3.3.2",
+        "typescript": "^5.1.6"
+    }
 }
